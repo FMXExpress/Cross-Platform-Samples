@@ -1,0 +1,14 @@
+object SecondFrame: TSecondFrame
+  Size.Width = 325.000000000000000000
+  Size.Height = 482.000000000000000000
+  Size.PlatformDefault = False
+  object Glyph2: TGlyph
+    Align = HorzCenter
+    Position.X = 113.000000000000000000
+    Size.Width = 98.000000000000000000
+    Size.Height = 482.000000000000000000
+    Size.PlatformDefault = False
+    ImageIndex = 1
+    Images = DataModule5.ImageList1
+  end
+end

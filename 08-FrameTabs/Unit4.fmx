@@ -1,0 +1,14 @@
+object ThirdFrame: TThirdFrame
+  Size.Width = 334.000000000000000000
+  Size.Height = 485.000000000000000000
+  Size.PlatformDefault = False
+  object Glyph3: TGlyph
+    Align = HorzCenter
+    Position.X = 118.000000000000000000
+    Size.Width = 98.000000000000000000
+    Size.Height = 485.000000000000000000
+    Size.PlatformDefault = False
+    ImageIndex = 2
+    Images = DataModule5.ImageList1
+  end
+end
