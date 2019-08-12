@@ -1,0 +1,62 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 329
+  Position = MainFormCenter
+  StyleBook = Form1.MaterialOxfordBlueSB
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 329.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object ShadowEffect4: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, Size, FontColor]
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 319.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Multiple Forms 3'
+      TabOrder = 0
+    end
+  end
+  object Button1: TButton
+    Align = Center
+    Size.Width = 119.000000000000000000
+    Size.Height = 43.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Click Me!'
+    OnClick = Button1Click
+  end
+  object Label2: TLabel
+    Align = VertCenter
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Bottom = 200.000000000000000000
+    Position.Y = 122.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 84.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Form 3'
+    TabOrder = 0
+  end
+end

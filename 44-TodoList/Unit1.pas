@@ -61,6 +61,21 @@ implementation
 
 {$R *.fmx}
 
+procedure DelayedSetFocus(Control: TControl);
+begin
+  TThread.CreateAnonymousThread(
+    procedure
+    begin
+      TThread.Synchronize( nil,
+         procedure
+         begin
+           Control.SetFocus;
+         end
+      );
+    end
+  ).Start;
+end;
+
 procedure TForm1.AddButtonClick(Sender: TObject);
 begin
   Form1.Tag := TabControl1.TabIndex;
@@ -144,7 +159,7 @@ begin
     2: begin
       AddButton.Visible := False;
       BackButton.Visible := True;
-      Edit1.SetFocus;
+      DelayedSetFocus(Edit1);
     end;
   end;
 end;
