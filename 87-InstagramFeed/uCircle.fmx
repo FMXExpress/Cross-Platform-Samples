@@ -1,0 +1,57 @@
+object CircleFrame: TCircleFrame
+  Size.Width = 211.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  object LineCircle: TCircle
+    Align = Client
+    Fill.Kind = None
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Size.Width = 205.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claBlue
+    Stroke.Thickness = 3.000000000000000000
+  end
+  object ImageCircle: TCircle
+    Align = Client
+    Fill.Bitmap.WrapMode = TileStretch
+    Fill.Kind = Bitmap
+    Margins.Left = 9.000000000000000000
+    Margins.Top = 9.000000000000000000
+    Margins.Right = 9.000000000000000000
+    Margins.Bottom = 9.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 188.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Label1: TLabel
+    Align = Bottom
+    StyledSettings = [Family, Size, FontColor]
+    Position.Y = 206.000000000000000000
+    Size.Width = 211.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Label1'
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Align = MostBottom
+    StyledSettings = [Family]
+    Position.Y = 223.000000000000000000
+    Size.Width = 211.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claDimgray
+    TextSettings.HorzAlign = Center
+    Text = 'Label2'
+    TabOrder = 3
+  end
+end
