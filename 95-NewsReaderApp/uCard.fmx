@@ -1,0 +1,332 @@
+object CardFrame: TCardFrame
+  Size.Width = 348.000000000000000000
+  Size.Height = 617.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 348.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object MenuButton: TButton
+      Align = Right
+      Position.X = 304.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ellipseseditbutton'
+      TabOrder = 0
+    end
+    object ProfileCircle: TCircle
+      Align = Left
+      Fill.Bitmap.WrapMode = TileStretch
+      Fill.Kind = Bitmap
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Position.X = 3.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = ProfileCircleClick
+    end
+    object NameLabel: TLabel
+      Align = Left
+      AutoSize = True
+      StyledSettings = [Family, Size, FontColor]
+      HitTest = True
+      Margins.Left = 3.000000000000000000
+      Position.X = 59.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.WordWrap = False
+      TabOrder = 2
+      OnClick = ProfileCircleClick
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Position.X = 3.000000000000000000
+    Position.Y = 410.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Layout3: TLayout
+      Align = MostLeft
+      Size.Width = 89.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object LoveButton: TButton
+        Align = MostLeft
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'toolbutton'
+        TabOrder = 2
+        OnClick = LoveButtonClick
+        object Glyph1: TGlyph
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Align = Client
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          ImageIndex = 0
+          Images = Form1.ImageList1
+        end
+      end
+      object CommentButton: TButton
+        Align = Left
+        Position.X = 44.000000000000000000
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'toolbutton'
+        TabOrder = 1
+        OnClick = CommentButtonClick
+        object Glyph2: TGlyph
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Align = Client
+          Size.Width = 38.000000000000000000
+          Size.Height = 38.000000000000000000
+          Size.PlatformDefault = False
+          ImageIndex = 1
+          Images = Form1.ImageList1
+        end
+      end
+    end
+    object BookmarkButton: TButton
+      Align = Right
+      Position.X = 298.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'bookmarkstoolbutton'
+      TabOrder = 2
+      OnClick = BookmarkButtonClick
+    end
+    object GoButton: TButton
+      Align = Left
+      Position.X = 89.000000000000000000
+      Size.Width = 44.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toolbutton'
+      TabOrder = 1
+      OnClick = GoButtonClick
+      object Glyph3: TGlyph
+        Margins.Left = 3.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Margins.Bottom = 3.000000000000000000
+        Align = Client
+        Size.Width = 38.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        ImageIndex = 2
+        Images = Form1.ImageList1
+      end
+    end
+  end
+  object DescLabel: TLabel
+    Align = Top
+    AutoSize = True
+    StyledSettings = [Family, Size, FontColor]
+    Margins.Left = 6.000000000000000000
+    Margins.Top = 6.000000000000000000
+    Margins.Right = 6.000000000000000000
+    Margins.Bottom = 6.000000000000000000
+    Position.X = 6.000000000000000000
+    Position.Y = 463.000000000000000000
+    Size.Width = 336.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = ': '
+    TabOrder = 4
+  end
+  object TimeLabel: TLabel
+    Align = Top
+    AutoSize = True
+    StyledSettings = [Family]
+    Margins.Left = 6.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 6.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Position.X = 6.000000000000000000
+    Position.Y = 488.000000000000000000
+    Size.Width = 336.000000000000000000
+    Size.Height = 14.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claDarkgray
+    Text = 'Posted at '
+    TabOrder = 3
+  end
+  object FeedImage: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 348.000000000000000000
+    Size.Height = 366.000000000000000000
+    Size.PlatformDefault = False
+    WrapMode = Stretch
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claBlack
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = claWhite
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 1.000000000000000000
+      Fill.Gradient.StartPosition.Y = 0.850103735923767100
+      Fill.Gradient.StopPosition.Y = 0.149896234273910500
+      Size.Width = 348.000000000000000000
+      Size.Height = 366.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnDblClick = Rectangle1DblClick
+    end
+    object TitleLabel: TLabel
+      Align = Client
+      AutoSize = True
+      StyledSettings = [Family, FontColor]
+      Size.Width = 348.000000000000000000
+      Size.Height = 366.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      TabOrder = 0
+    end
+  end
+  object DataMT: TFDMemTable
+    Active = True
+    FieldDefs = <
+      item
+        Name = 'Id'
+        DataType = ftInteger
+      end
+      item
+        Name = 'ProfileImage'
+        DataType = ftBlob
+      end
+      item
+        Name = 'Name'
+        DataType = ftWideString
+        Size = 56
+      end
+      item
+        Name = 'Author'
+        DataType = ftWideString
+        Size = 128
+      end
+      item
+        Name = 'Title'
+        DataType = ftWideString
+        Size = 512
+      end
+      item
+        Name = 'Description'
+        DataType = ftWideMemo
+      end
+      item
+        Name = 'Posted'
+        DataType = ftDateTime
+      end
+      item
+        Name = 'Image'
+        DataType = ftBlob
+      end>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 208
+    Top = 192
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DataMT
+    ScopeMappings = <>
+    Left = 160
+    Top = 264
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 116
+    Top = 157
+    object LinkPropertyToFieldFillBitmapBitmap: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'ProfileImage'
+      Component = ProfileCircle
+      ComponentProperty = 'Fill.Bitmap.Bitmap'
+    end
+    object LinkPropertyToFieldText: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Name'
+      Component = NameLabel
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText4: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Posted'
+      Component = TimeLabel
+      CustomFormat = #39'Posted at '#39'+Self.Owner.FieldByName('#39'Posted'#39').Text'
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldBitmap: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Image'
+      Component = FeedImage
+      ComponentProperty = 'Bitmap'
+    end
+    object LinkPropertyToFieldText6: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Title'
+      Component = TitleLabel
+      ComponentProperty = 'Text'
+    end
+    object LinkPropertyToFieldText5: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'Description'
+      Component = DescLabel
+      CustomFormat = 'Self.Owner.FieldByName('#39'Author'#39').Text+'#39': '#39'+%s'
+      ComponentProperty = 'Text'
+    end
+  end
+end
