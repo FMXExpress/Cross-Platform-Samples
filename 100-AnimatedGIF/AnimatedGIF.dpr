@@ -1,9 +1,14 @@
 program AnimatedGIF;
 
+
+
+{$R *.dres}
+
 uses
   System.StartUpCopy,
   FMX.Forms,
-  Unit1 in 'Unit1.pas' {Form1};
+  Unit1 in 'Unit1.pas' {Form1},
+  FMX.GifUtils in 'FMX.GifUtils.pas';
 
 {$R *.res}
 
