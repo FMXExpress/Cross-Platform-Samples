@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Effects, FMX.Controls.Presentation, FMX.TabControl, FMX.ScrollBox,
-  FMX.Memo;
+  FMX.Memo, XML.XMLDom, XML.XMLDoc, XML.OmniXmlDom;
 
 type
   TForm1 = class(TForm)
@@ -35,7 +35,7 @@ implementation
 {$R *.fmx}
 
 uses
-   System.IOUtils, XMLIntf, XMLDoc;
+   System.IOUtils, XML.XMLIntf;
 
 
 procedure TForm1.Button1Click(Sender: TObject);
@@ -61,5 +61,8 @@ begin
     end;
   end;
 end;
+
+initialization
+  DefaultDOMVendor := sOmniXmlVendor;
 
 end.

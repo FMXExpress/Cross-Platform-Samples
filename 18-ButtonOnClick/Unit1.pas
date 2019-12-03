@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Effects, FMX.Controls.Presentation;
+  FMX.Effects, FMX.Controls.Presentation, System.Actions, FMX.ActnList;
 
 type
   TForm1 = class(TForm)
@@ -15,7 +15,9 @@ type
     Label1: TLabel;
     Button1: TButton;
     Label2: TLabel;
-    procedure Button1Click(Sender: TObject);
+    ActionList1: TActionList;
+    ButtonOnClickAction: TAction;
+    procedure ButtonOnClickActionExecute(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,7 +31,7 @@ implementation
 
 {$R *.fmx}
 
-procedure TForm1.Button1Click(Sender: TObject);
+procedure TForm1.ButtonOnClickActionExecute(Sender: TObject);
 begin
   Label2.Text := DateTimeToStr(Now);
 end;
