@@ -4,12 +4,12 @@ unit FMX.GifUtils;
 
 interface
 
-uses
+uses                                                                            //connecting fmx modules
   System.Classes, System.SysUtils, System.Types, System.UITypes,
   FMX.Types, FMX.Objects, FMX.Graphics, System.Generics.Collections;
 
 const
-  alphaTransparent = $00;
+  alphaTransparent = $00;    //Every color in a graphic has an alpha channel value to indicate how transparent it is
   GifSignature: array [0 .. 2] of Byte = ($47, $49, $46); // GIF
   VerSignature87a: array [0 .. 2] of Byte = ($38, $37, $61); // 87a
   VerSignature89a: array [0 .. 2] of Byte = ($38, $39, $61); // 89a
@@ -27,8 +27,8 @@ type
       0:
         (
 
-{$IFDEF BIGENDIAN}
-          R, G, B, A: Byte;
+{$IFDEF BIGENDIAN}               //RGBA color space
+          R, G, B, A: Byte;      //Colors
 {$ELSE}
           B, G, R, A: Byte;
 {$ENDIF}
@@ -361,7 +361,7 @@ var
         Result := True;
       end
       else
-        Raise Exception.Create('Unknown GIF image format');
+        Raise Exception.Create('Unknown GIF image format');        //messagebox if gif wrong
     end;
 
   end;
@@ -453,8 +453,8 @@ var
     CodeMask: Cardinal;
     FreeCode: Cardinal;
     OldCode: Cardinal;
-    Prefix: array [0 .. 4095] of Cardinal;
-    Suffix, Stack: array [0 .. 4095] of Byte;
+    Prefix: array [0 .. 4096] of Cardinal;
+    Suffix, Stack: array [0 .. 4096] of Byte;
     StackPointer: PByte;
     Target: PByte;
     DataComp: TBytes;
@@ -559,7 +559,7 @@ var
               Inc(CodeSize);
               CodeMask := (1 shl CodeSize) - 1;
             end;
-            if FreeCode < 4095 then
+            if FreeCode < 4096 then
               Inc(FreeCode);
             OldCode := InCode;
             repeat
@@ -972,9 +972,9 @@ begin
   end;
 end;
 
-procedure TGifPlayer.SetActiveFrameIndex(const Value: Integer);
+procedure TGifPlayer.SetActiveFrameIndex(const Value: Integer);           //
 var
-  lInterval: Integer;
+  lInterval: Integer;                                                      //the interval between frames
 begin
   // if (FActiveFrameIndex <> Value) then
   begin
@@ -1005,7 +1005,7 @@ begin
   end;
 end;
 
-procedure TGifPlayer.SetImage(const Value: TImage);
+procedure TGifPlayer.SetImage(const Value: TImage);     //appointment image
 begin
   FImage := Value;
   if FImage <> nil then
@@ -1017,15 +1017,15 @@ begin
   if FSpeedup <> Value then
   begin
     FSpeedup := Value;
-    if FSpeedup <= 0.001 then
+    if FSpeedup <= 0.001 then          //up speed playing gif
       FSpeedup := 0.001;
   end;
 end;
 
-procedure TGifPlayer.stop;
+procedure TGifPlayer.stop;         //stop playgif
 begin
   Pause;
-  FActiveFrameIndex := 0;
+  FActiveFrameIndex := 0;         //frame=0
 end;
 
 procedure TGifPlayer.TimerProc(Sender: TObject);
