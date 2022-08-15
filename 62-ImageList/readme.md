@@ -1,1 +1,3 @@
+If you need an application that helps you store and share images easily, then the Image List Demo is perfect for you. With support for Android, iOS, macOS, Windows, and Linux, this cross-platform solution is built using a single code base and single UI. This makes it easy to use and reliable, perfect for those who need a solution that works on any platform. With the Image List Demo, you can assign images to various image control components and share them with ease. So if you need a powerful and easy-to-use solution for managing images, look no further than the Image List Demo.
+
 ![screenshot](screenshot.gif)
