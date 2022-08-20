@@ -61,7 +61,7 @@ begin
       try
         FDTable1.FieldDefs.Clear;
         FDTable1.FieldDefs.Assign(FDMemTable1.FieldDefs);
-        FDTable1.CreateTable(True);
+        FDTable1.CreateTable(False);
         FDTable1.CopyDataSet(FDMemTable1, [coStructure, coRestart, coAppend]);
       finally
         FDConnection1.Close;
