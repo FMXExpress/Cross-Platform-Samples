@@ -65,7 +65,7 @@ begin
       try
         FDTable1.FieldDefs.Clear;
         FDTable1.FieldDefs.Assign(FDMemTable1.FieldDefs);
-        FDTable1.CreateTable(True);
+        FDTable1.CreateTable(False);
       finally
         FDConnection1.Close;
       end;
