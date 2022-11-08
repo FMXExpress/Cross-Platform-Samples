@@ -5,5 +5,7 @@ The cross-platform samples project contains 100 demos showing the power of Delph
 
 Delphi and these samples projects are a great alternative to Xamarin, Electron, and WPF.
 
+[![100 Cross-Platform Examples In FireMonkey](https://img.youtube.com/vi/-BtdI5KwmPc/0.jpg)](https://www.youtube.com/watch?v=-BtdI5KwmPc)
+
 Powered by Delphi
 https://www.embarcadero.com/products/delphi
