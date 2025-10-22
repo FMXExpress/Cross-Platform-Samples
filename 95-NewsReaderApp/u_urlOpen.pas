@@ -1,5 +1,5 @@
 // https://stackoverflow.com/questions/7443264/how-to-open-an-url-with-the-default-browser-with-firemonkey-cross-platform-appli/7453797
-// https://www.developpeur-pascal.fr/p/_2000-ouvrir-un-site-web-dans-le-navigateur-par-defaut-depuis-une-application-firemonkey.html
+// https://developpeur-pascal.fr/ouvrir-un-site-web-dans-le-navigateur-par-defaut-depuis-une-application-firemonkey.html
 unit u_urlOpen;
 
 interface

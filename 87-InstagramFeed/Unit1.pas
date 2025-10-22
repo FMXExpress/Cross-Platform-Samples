@@ -50,7 +50,10 @@ implementation
 {$R *.fmx}
 
 uses
-  FMX.Objects, uCircle, uCard, FMX.Scene;
+  FMX.Objects, uCircle, uCard, FMX.BufferedLayout;
+
+type
+  TSCene = TBufferedLayout;
 
 
 procedure TForm1.AppIdle(Sender: TObject; var Done: Boolean);

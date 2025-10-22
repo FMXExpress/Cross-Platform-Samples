@@ -1,5 +1,4 @@
 object DataModule1: TDataModule1
-  OldCreateOrder = False
   Height = 448
   Width = 258
   object FDTable1: TFDTable
@@ -15,6 +14,7 @@ object DataModule1: TDataModule1
     Top = 16
   end
   object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
+    EngineLinkage = slFDEStatic
     Left = 120
     Top = 144
   end

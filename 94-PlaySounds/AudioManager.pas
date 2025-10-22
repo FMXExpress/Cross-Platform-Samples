@@ -23,6 +23,9 @@ SOFTWARE.}
 
 unit AudioManager;
 
+// To use this unit on iOS, don't forget to add the framework AVRouting from
+// $(SDKROOT)/System/Library/Frameworks in Tools / Options / Deployment / SDK Manager
+
 interface
 
 uses
@@ -148,8 +151,6 @@ var
     wSndID : NSInteger;
     wNSFilename: CFStringRef;
     wNSURL : CFURLRef;
-    wCFRunLoopRef : CFRunLoopRef;
-    winRunLoopMode : CFStringRef;
   {$ENDIF}
 begin
   try

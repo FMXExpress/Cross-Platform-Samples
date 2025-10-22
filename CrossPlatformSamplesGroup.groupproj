@@ -1,0 +1,1224 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6FFBFAC5-CF90-40C2-A91F-164868E40D99}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01-HelloWorld\HelloWorld.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02-HelloWorldStyled\HelloWorldStyled.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-StatelessCards\StatelessCards.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="04-StatefulControl\StatefulControl.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="05-OnChangeTracking\OnChangeTracking.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="06-OnClick\OnClick.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="07-SimpleTabs\SimpleTabs.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="08-FrameTabs\FrameTabs.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="09-AsyncREST\AsyncREST.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="10-StringGridWithJsonData\StringGridWithJsonData.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="100-AnimatedGIF\AnimatedGIF.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="11-DrawerMenu\DrawerMenu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="12-PlatformMenu\PlatformMenu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="13-Animation\Animation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="14-JSONStorage\JSONStorage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="15-BubbleChatApp\BubbleChatApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="16-ChangeGlyphColor\ChangeGlyphColor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="17-ToggleButton\ToggleButton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="18-ButtonOnClick\ButtonOnClick.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="19-IconButton\IconButton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="20-UpdateEditField\UpdateEditField.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="21-UpdateCheckBox\UpdateCheckBox.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="22-UpdateRadioButton\UpdateRadioButton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="23-UpdateSwitch\UpdateSwitch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="24-UpdateScrollBar\UpdateScrollBar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="25-UpdateDateEdit\UpdateDateEdit.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="26-ToolBar\ToolBar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="27-FloatingActionButton\FloatingActionButton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="28-PopupMenuButton\PopupMenuButton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="29-FooterButtons\FooterButtons.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="30-CustomFooterTabs\CustomFooterTabs.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="31-BottomSheets\BottomSheets.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="32-SnackBar\SnackBar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="33-ShowMessageDialog\ShowMessageDialog.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="34-OptionsDialog\OptionsDialog.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="35-RowsAndColumnLayout\RowsAndColumnLayout.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="36-Cards\Cards.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="37-Alignment\Alignment.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="38-ListViewFromJson\ListViewFromJson.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="39-ListViewFromStringList\ListViewFromStringList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="40-DataImage\DataImage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="41-Fullscreen\Fullscreen.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="42-TestConnection\TestConnection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="43-Dial\Dial.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="44-TodoList\TodoList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="45-Calendar\Calendar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="46-Splitter\Splitter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="47-ProgressBar\ProgressBar.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="48-ImageViewer\ImageViewer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="49-Camera\Camera.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="50-XML\XML.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="51-AppBarState\AppBarState.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="52-InventoryMasterDetail\InventoryMasterDetail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="53-InputDialog\InputDialog.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="54-ExportCSV\ExportCSV.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="55-LoopingAnimation\LoopingAnimation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="56-SimpleBarChart\SimpleBarChart.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="57-RunAtStartup\RunAtStartup.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="58-DelayedRunAtStartup\DelayedRunAtStartup.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="59-PullToRefresh\PullToRefresh.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="60-ConcatDataFields\ConcatDataFields.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="61-MultipleForms\MultipleForms.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="62-ImageList\ImageList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="63-PersistantMemTable\PersistantMemTable.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="64-RandomNumbers\RandomNumbers.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="65-WebView\WebView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="66-RuntimeCreateControls\RuntimeCreateControls.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="67-NotesApp\NotesApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="68-StreamControls\StreamControls.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="69-MakeScreenshot\MakeScreenshot.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="70-Ping\Ping.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="71-HTTPPost\HTTPPost.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="72-TextFileSaveLoad\TextFileSaveLoad.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="73-AsyncHTTPGet\AsyncHTTPGet.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="74-HTTPServer\HTTPServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="75-DNSLookup\DNSLookup.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="76-ParallelMath\ParallelMath.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="77-Signature\Signature.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="78-TimerAnimation\TimerAnimation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="79-EmailApp\EmailApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="80-ChangeStyle\ChangeStyle.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="81-PieChart\PieChart.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="82-BcryptPassword\BcryptPassword.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="83-DynamicListView\DynamicListView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="84-LocalNotifications\LocalNotifications.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="85-EncryptedSQLite\EncryptedSQLite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="86-ContactsSQlite\ContactsSQLite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="87-InstagramFeed\InstagramFeed.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="88-RESTToSQLite\RESTToSQLite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="89-HTTPImage\HTTPImage.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="90-NativeConnectivity\NativeConnectivity.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="91-SearchSQLite\SearchSQLite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="92-MusicPlayerApp\MusicPlayerApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="93-DynamicSMTP\DynamicSMTP.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="94-PlaySounds\PlaySounds.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="95-NewsReaderApp\NewsReaderApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="96-InputValidation\InputValidation.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="97-DragReOrderList\DragReOrderList.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="98-EmojiApp\EmojiApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="99-DrawApp\DrawApp.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="HelloWorld">
+        <MSBuild Projects="01-HelloWorld\HelloWorld.dproj"/>
+    </Target>
+    <Target Name="HelloWorld:Clean">
+        <MSBuild Projects="01-HelloWorld\HelloWorld.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HelloWorld:Make">
+        <MSBuild Projects="01-HelloWorld\HelloWorld.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HelloWorldStyled">
+        <MSBuild Projects="02-HelloWorldStyled\HelloWorldStyled.dproj"/>
+    </Target>
+    <Target Name="HelloWorldStyled:Clean">
+        <MSBuild Projects="02-HelloWorldStyled\HelloWorldStyled.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HelloWorldStyled:Make">
+        <MSBuild Projects="02-HelloWorldStyled\HelloWorldStyled.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StatelessCards">
+        <MSBuild Projects="03-StatelessCards\StatelessCards.dproj"/>
+    </Target>
+    <Target Name="StatelessCards:Clean">
+        <MSBuild Projects="03-StatelessCards\StatelessCards.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StatelessCards:Make">
+        <MSBuild Projects="03-StatelessCards\StatelessCards.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StatefulControl">
+        <MSBuild Projects="04-StatefulControl\StatefulControl.dproj"/>
+    </Target>
+    <Target Name="StatefulControl:Clean">
+        <MSBuild Projects="04-StatefulControl\StatefulControl.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StatefulControl:Make">
+        <MSBuild Projects="04-StatefulControl\StatefulControl.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OnChangeTracking">
+        <MSBuild Projects="05-OnChangeTracking\OnChangeTracking.dproj"/>
+    </Target>
+    <Target Name="OnChangeTracking:Clean">
+        <MSBuild Projects="05-OnChangeTracking\OnChangeTracking.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OnChangeTracking:Make">
+        <MSBuild Projects="05-OnChangeTracking\OnChangeTracking.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OnClick">
+        <MSBuild Projects="06-OnClick\OnClick.dproj"/>
+    </Target>
+    <Target Name="OnClick:Clean">
+        <MSBuild Projects="06-OnClick\OnClick.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OnClick:Make">
+        <MSBuild Projects="06-OnClick\OnClick.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SimpleTabs">
+        <MSBuild Projects="07-SimpleTabs\SimpleTabs.dproj"/>
+    </Target>
+    <Target Name="SimpleTabs:Clean">
+        <MSBuild Projects="07-SimpleTabs\SimpleTabs.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimpleTabs:Make">
+        <MSBuild Projects="07-SimpleTabs\SimpleTabs.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FrameTabs">
+        <MSBuild Projects="08-FrameTabs\FrameTabs.dproj"/>
+    </Target>
+    <Target Name="FrameTabs:Clean">
+        <MSBuild Projects="08-FrameTabs\FrameTabs.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FrameTabs:Make">
+        <MSBuild Projects="08-FrameTabs\FrameTabs.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AsyncREST">
+        <MSBuild Projects="09-AsyncREST\AsyncREST.dproj"/>
+    </Target>
+    <Target Name="AsyncREST:Clean">
+        <MSBuild Projects="09-AsyncREST\AsyncREST.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsyncREST:Make">
+        <MSBuild Projects="09-AsyncREST\AsyncREST.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StringGridWithJsonData">
+        <MSBuild Projects="10-StringGridWithJsonData\StringGridWithJsonData.dproj"/>
+    </Target>
+    <Target Name="StringGridWithJsonData:Clean">
+        <MSBuild Projects="10-StringGridWithJsonData\StringGridWithJsonData.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StringGridWithJsonData:Make">
+        <MSBuild Projects="10-StringGridWithJsonData\StringGridWithJsonData.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AnimatedGIF">
+        <MSBuild Projects="100-AnimatedGIF\AnimatedGIF.dproj"/>
+    </Target>
+    <Target Name="AnimatedGIF:Clean">
+        <MSBuild Projects="100-AnimatedGIF\AnimatedGIF.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AnimatedGIF:Make">
+        <MSBuild Projects="100-AnimatedGIF\AnimatedGIF.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DrawerMenu">
+        <MSBuild Projects="11-DrawerMenu\DrawerMenu.dproj"/>
+    </Target>
+    <Target Name="DrawerMenu:Clean">
+        <MSBuild Projects="11-DrawerMenu\DrawerMenu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DrawerMenu:Make">
+        <MSBuild Projects="11-DrawerMenu\DrawerMenu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PlatformMenu">
+        <MSBuild Projects="12-PlatformMenu\PlatformMenu.dproj"/>
+    </Target>
+    <Target Name="PlatformMenu:Clean">
+        <MSBuild Projects="12-PlatformMenu\PlatformMenu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PlatformMenu:Make">
+        <MSBuild Projects="12-PlatformMenu\PlatformMenu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Animation">
+        <MSBuild Projects="13-Animation\Animation.dproj"/>
+    </Target>
+    <Target Name="Animation:Clean">
+        <MSBuild Projects="13-Animation\Animation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Animation:Make">
+        <MSBuild Projects="13-Animation\Animation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JSONStorage">
+        <MSBuild Projects="14-JSONStorage\JSONStorage.dproj"/>
+    </Target>
+    <Target Name="JSONStorage:Clean">
+        <MSBuild Projects="14-JSONStorage\JSONStorage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JSONStorage:Make">
+        <MSBuild Projects="14-JSONStorage\JSONStorage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BubbleChatApp">
+        <MSBuild Projects="15-BubbleChatApp\BubbleChatApp.dproj"/>
+    </Target>
+    <Target Name="BubbleChatApp:Clean">
+        <MSBuild Projects="15-BubbleChatApp\BubbleChatApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BubbleChatApp:Make">
+        <MSBuild Projects="15-BubbleChatApp\BubbleChatApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChangeGlyphColor">
+        <MSBuild Projects="16-ChangeGlyphColor\ChangeGlyphColor.dproj"/>
+    </Target>
+    <Target Name="ChangeGlyphColor:Clean">
+        <MSBuild Projects="16-ChangeGlyphColor\ChangeGlyphColor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChangeGlyphColor:Make">
+        <MSBuild Projects="16-ChangeGlyphColor\ChangeGlyphColor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ToggleButton">
+        <MSBuild Projects="17-ToggleButton\ToggleButton.dproj"/>
+    </Target>
+    <Target Name="ToggleButton:Clean">
+        <MSBuild Projects="17-ToggleButton\ToggleButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ToggleButton:Make">
+        <MSBuild Projects="17-ToggleButton\ToggleButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ButtonOnClick">
+        <MSBuild Projects="18-ButtonOnClick\ButtonOnClick.dproj"/>
+    </Target>
+    <Target Name="ButtonOnClick:Clean">
+        <MSBuild Projects="18-ButtonOnClick\ButtonOnClick.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ButtonOnClick:Make">
+        <MSBuild Projects="18-ButtonOnClick\ButtonOnClick.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="IconButton">
+        <MSBuild Projects="19-IconButton\IconButton.dproj"/>
+    </Target>
+    <Target Name="IconButton:Clean">
+        <MSBuild Projects="19-IconButton\IconButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IconButton:Make">
+        <MSBuild Projects="19-IconButton\IconButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateEditField">
+        <MSBuild Projects="20-UpdateEditField\UpdateEditField.dproj"/>
+    </Target>
+    <Target Name="UpdateEditField:Clean">
+        <MSBuild Projects="20-UpdateEditField\UpdateEditField.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateEditField:Make">
+        <MSBuild Projects="20-UpdateEditField\UpdateEditField.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateCheckBox">
+        <MSBuild Projects="21-UpdateCheckBox\UpdateCheckBox.dproj"/>
+    </Target>
+    <Target Name="UpdateCheckBox:Clean">
+        <MSBuild Projects="21-UpdateCheckBox\UpdateCheckBox.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateCheckBox:Make">
+        <MSBuild Projects="21-UpdateCheckBox\UpdateCheckBox.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateRadioButton">
+        <MSBuild Projects="22-UpdateRadioButton\UpdateRadioButton.dproj"/>
+    </Target>
+    <Target Name="UpdateRadioButton:Clean">
+        <MSBuild Projects="22-UpdateRadioButton\UpdateRadioButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateRadioButton:Make">
+        <MSBuild Projects="22-UpdateRadioButton\UpdateRadioButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateSwitch">
+        <MSBuild Projects="23-UpdateSwitch\UpdateSwitch.dproj"/>
+    </Target>
+    <Target Name="UpdateSwitch:Clean">
+        <MSBuild Projects="23-UpdateSwitch\UpdateSwitch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateSwitch:Make">
+        <MSBuild Projects="23-UpdateSwitch\UpdateSwitch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateScrollBar">
+        <MSBuild Projects="24-UpdateScrollBar\UpdateScrollBar.dproj"/>
+    </Target>
+    <Target Name="UpdateScrollBar:Clean">
+        <MSBuild Projects="24-UpdateScrollBar\UpdateScrollBar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateScrollBar:Make">
+        <MSBuild Projects="24-UpdateScrollBar\UpdateScrollBar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UpdateDateEdit">
+        <MSBuild Projects="25-UpdateDateEdit\UpdateDateEdit.dproj"/>
+    </Target>
+    <Target Name="UpdateDateEdit:Clean">
+        <MSBuild Projects="25-UpdateDateEdit\UpdateDateEdit.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UpdateDateEdit:Make">
+        <MSBuild Projects="25-UpdateDateEdit\UpdateDateEdit.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ToolBar">
+        <MSBuild Projects="26-ToolBar\ToolBar.dproj"/>
+    </Target>
+    <Target Name="ToolBar:Clean">
+        <MSBuild Projects="26-ToolBar\ToolBar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ToolBar:Make">
+        <MSBuild Projects="26-ToolBar\ToolBar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FloatingActionButton">
+        <MSBuild Projects="27-FloatingActionButton\FloatingActionButton.dproj"/>
+    </Target>
+    <Target Name="FloatingActionButton:Clean">
+        <MSBuild Projects="27-FloatingActionButton\FloatingActionButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FloatingActionButton:Make">
+        <MSBuild Projects="27-FloatingActionButton\FloatingActionButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PopupMenuButton">
+        <MSBuild Projects="28-PopupMenuButton\PopupMenuButton.dproj"/>
+    </Target>
+    <Target Name="PopupMenuButton:Clean">
+        <MSBuild Projects="28-PopupMenuButton\PopupMenuButton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PopupMenuButton:Make">
+        <MSBuild Projects="28-PopupMenuButton\PopupMenuButton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FooterButtons">
+        <MSBuild Projects="29-FooterButtons\FooterButtons.dproj"/>
+    </Target>
+    <Target Name="FooterButtons:Clean">
+        <MSBuild Projects="29-FooterButtons\FooterButtons.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FooterButtons:Make">
+        <MSBuild Projects="29-FooterButtons\FooterButtons.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CustomFooterTabs">
+        <MSBuild Projects="30-CustomFooterTabs\CustomFooterTabs.dproj"/>
+    </Target>
+    <Target Name="CustomFooterTabs:Clean">
+        <MSBuild Projects="30-CustomFooterTabs\CustomFooterTabs.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CustomFooterTabs:Make">
+        <MSBuild Projects="30-CustomFooterTabs\CustomFooterTabs.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BottomSheets">
+        <MSBuild Projects="31-BottomSheets\BottomSheets.dproj"/>
+    </Target>
+    <Target Name="BottomSheets:Clean">
+        <MSBuild Projects="31-BottomSheets\BottomSheets.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BottomSheets:Make">
+        <MSBuild Projects="31-BottomSheets\BottomSheets.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SnackBar">
+        <MSBuild Projects="32-SnackBar\SnackBar.dproj"/>
+    </Target>
+    <Target Name="SnackBar:Clean">
+        <MSBuild Projects="32-SnackBar\SnackBar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SnackBar:Make">
+        <MSBuild Projects="32-SnackBar\SnackBar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShowMessageDialog">
+        <MSBuild Projects="33-ShowMessageDialog\ShowMessageDialog.dproj"/>
+    </Target>
+    <Target Name="ShowMessageDialog:Clean">
+        <MSBuild Projects="33-ShowMessageDialog\ShowMessageDialog.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShowMessageDialog:Make">
+        <MSBuild Projects="33-ShowMessageDialog\ShowMessageDialog.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OptionsDialog">
+        <MSBuild Projects="34-OptionsDialog\OptionsDialog.dproj"/>
+    </Target>
+    <Target Name="OptionsDialog:Clean">
+        <MSBuild Projects="34-OptionsDialog\OptionsDialog.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OptionsDialog:Make">
+        <MSBuild Projects="34-OptionsDialog\OptionsDialog.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RowsAndColumnLayout">
+        <MSBuild Projects="35-RowsAndColumnLayout\RowsAndColumnLayout.dproj"/>
+    </Target>
+    <Target Name="RowsAndColumnLayout:Clean">
+        <MSBuild Projects="35-RowsAndColumnLayout\RowsAndColumnLayout.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RowsAndColumnLayout:Make">
+        <MSBuild Projects="35-RowsAndColumnLayout\RowsAndColumnLayout.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Cards">
+        <MSBuild Projects="36-Cards\Cards.dproj"/>
+    </Target>
+    <Target Name="Cards:Clean">
+        <MSBuild Projects="36-Cards\Cards.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Cards:Make">
+        <MSBuild Projects="36-Cards\Cards.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Alignment">
+        <MSBuild Projects="37-Alignment\Alignment.dproj"/>
+    </Target>
+    <Target Name="Alignment:Clean">
+        <MSBuild Projects="37-Alignment\Alignment.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Alignment:Make">
+        <MSBuild Projects="37-Alignment\Alignment.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListViewFromJson">
+        <MSBuild Projects="38-ListViewFromJson\ListViewFromJson.dproj"/>
+    </Target>
+    <Target Name="ListViewFromJson:Clean">
+        <MSBuild Projects="38-ListViewFromJson\ListViewFromJson.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListViewFromJson:Make">
+        <MSBuild Projects="38-ListViewFromJson\ListViewFromJson.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ListViewFromStringList">
+        <MSBuild Projects="39-ListViewFromStringList\ListViewFromStringList.dproj"/>
+    </Target>
+    <Target Name="ListViewFromStringList:Clean">
+        <MSBuild Projects="39-ListViewFromStringList\ListViewFromStringList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ListViewFromStringList:Make">
+        <MSBuild Projects="39-ListViewFromStringList\ListViewFromStringList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataImage">
+        <MSBuild Projects="40-DataImage\DataImage.dproj"/>
+    </Target>
+    <Target Name="DataImage:Clean">
+        <MSBuild Projects="40-DataImage\DataImage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataImage:Make">
+        <MSBuild Projects="40-DataImage\DataImage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Fullscreen">
+        <MSBuild Projects="41-Fullscreen\Fullscreen.dproj"/>
+    </Target>
+    <Target Name="Fullscreen:Clean">
+        <MSBuild Projects="41-Fullscreen\Fullscreen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Fullscreen:Make">
+        <MSBuild Projects="41-Fullscreen\Fullscreen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestConnection">
+        <MSBuild Projects="42-TestConnection\TestConnection.dproj"/>
+    </Target>
+    <Target Name="TestConnection:Clean">
+        <MSBuild Projects="42-TestConnection\TestConnection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestConnection:Make">
+        <MSBuild Projects="42-TestConnection\TestConnection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Dial">
+        <MSBuild Projects="43-Dial\Dial.dproj"/>
+    </Target>
+    <Target Name="Dial:Clean">
+        <MSBuild Projects="43-Dial\Dial.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Dial:Make">
+        <MSBuild Projects="43-Dial\Dial.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TodoList">
+        <MSBuild Projects="44-TodoList\TodoList.dproj"/>
+    </Target>
+    <Target Name="TodoList:Clean">
+        <MSBuild Projects="44-TodoList\TodoList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TodoList:Make">
+        <MSBuild Projects="44-TodoList\TodoList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Calendar">
+        <MSBuild Projects="45-Calendar\Calendar.dproj"/>
+    </Target>
+    <Target Name="Calendar:Clean">
+        <MSBuild Projects="45-Calendar\Calendar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Calendar:Make">
+        <MSBuild Projects="45-Calendar\Calendar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Splitter">
+        <MSBuild Projects="46-Splitter\Splitter.dproj"/>
+    </Target>
+    <Target Name="Splitter:Clean">
+        <MSBuild Projects="46-Splitter\Splitter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Splitter:Make">
+        <MSBuild Projects="46-Splitter\Splitter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProgressBar">
+        <MSBuild Projects="47-ProgressBar\ProgressBar.dproj"/>
+    </Target>
+    <Target Name="ProgressBar:Clean">
+        <MSBuild Projects="47-ProgressBar\ProgressBar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProgressBar:Make">
+        <MSBuild Projects="47-ProgressBar\ProgressBar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageViewer">
+        <MSBuild Projects="48-ImageViewer\ImageViewer.dproj"/>
+    </Target>
+    <Target Name="ImageViewer:Clean">
+        <MSBuild Projects="48-ImageViewer\ImageViewer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageViewer:Make">
+        <MSBuild Projects="48-ImageViewer\ImageViewer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Camera">
+        <MSBuild Projects="49-Camera\Camera.dproj"/>
+    </Target>
+    <Target Name="Camera:Clean">
+        <MSBuild Projects="49-Camera\Camera.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Camera:Make">
+        <MSBuild Projects="49-Camera\Camera.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="XML">
+        <MSBuild Projects="50-XML\XML.dproj"/>
+    </Target>
+    <Target Name="XML:Clean">
+        <MSBuild Projects="50-XML\XML.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="XML:Make">
+        <MSBuild Projects="50-XML\XML.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AppBarState">
+        <MSBuild Projects="51-AppBarState\AppBarState.dproj"/>
+    </Target>
+    <Target Name="AppBarState:Clean">
+        <MSBuild Projects="51-AppBarState\AppBarState.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppBarState:Make">
+        <MSBuild Projects="51-AppBarState\AppBarState.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InventoryMasterDetail">
+        <MSBuild Projects="52-InventoryMasterDetail\InventoryMasterDetail.dproj"/>
+    </Target>
+    <Target Name="InventoryMasterDetail:Clean">
+        <MSBuild Projects="52-InventoryMasterDetail\InventoryMasterDetail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InventoryMasterDetail:Make">
+        <MSBuild Projects="52-InventoryMasterDetail\InventoryMasterDetail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InputDialog">
+        <MSBuild Projects="53-InputDialog\InputDialog.dproj"/>
+    </Target>
+    <Target Name="InputDialog:Clean">
+        <MSBuild Projects="53-InputDialog\InputDialog.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InputDialog:Make">
+        <MSBuild Projects="53-InputDialog\InputDialog.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ExportCSV">
+        <MSBuild Projects="54-ExportCSV\ExportCSV.dproj"/>
+    </Target>
+    <Target Name="ExportCSV:Clean">
+        <MSBuild Projects="54-ExportCSV\ExportCSV.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExportCSV:Make">
+        <MSBuild Projects="54-ExportCSV\ExportCSV.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LoopingAnimation">
+        <MSBuild Projects="55-LoopingAnimation\LoopingAnimation.dproj"/>
+    </Target>
+    <Target Name="LoopingAnimation:Clean">
+        <MSBuild Projects="55-LoopingAnimation\LoopingAnimation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LoopingAnimation:Make">
+        <MSBuild Projects="55-LoopingAnimation\LoopingAnimation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SimpleBarChart">
+        <MSBuild Projects="56-SimpleBarChart\SimpleBarChart.dproj"/>
+    </Target>
+    <Target Name="SimpleBarChart:Clean">
+        <MSBuild Projects="56-SimpleBarChart\SimpleBarChart.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SimpleBarChart:Make">
+        <MSBuild Projects="56-SimpleBarChart\SimpleBarChart.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RunAtStartup">
+        <MSBuild Projects="57-RunAtStartup\RunAtStartup.dproj"/>
+    </Target>
+    <Target Name="RunAtStartup:Clean">
+        <MSBuild Projects="57-RunAtStartup\RunAtStartup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RunAtStartup:Make">
+        <MSBuild Projects="57-RunAtStartup\RunAtStartup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelayedRunAtStartup">
+        <MSBuild Projects="58-DelayedRunAtStartup\DelayedRunAtStartup.dproj"/>
+    </Target>
+    <Target Name="DelayedRunAtStartup:Clean">
+        <MSBuild Projects="58-DelayedRunAtStartup\DelayedRunAtStartup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelayedRunAtStartup:Make">
+        <MSBuild Projects="58-DelayedRunAtStartup\DelayedRunAtStartup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PullToRefresh">
+        <MSBuild Projects="59-PullToRefresh\PullToRefresh.dproj"/>
+    </Target>
+    <Target Name="PullToRefresh:Clean">
+        <MSBuild Projects="59-PullToRefresh\PullToRefresh.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PullToRefresh:Make">
+        <MSBuild Projects="59-PullToRefresh\PullToRefresh.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ConcatDataFields">
+        <MSBuild Projects="60-ConcatDataFields\ConcatDataFields.dproj"/>
+    </Target>
+    <Target Name="ConcatDataFields:Clean">
+        <MSBuild Projects="60-ConcatDataFields\ConcatDataFields.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConcatDataFields:Make">
+        <MSBuild Projects="60-ConcatDataFields\ConcatDataFields.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MultipleForms">
+        <MSBuild Projects="61-MultipleForms\MultipleForms.dproj"/>
+    </Target>
+    <Target Name="MultipleForms:Clean">
+        <MSBuild Projects="61-MultipleForms\MultipleForms.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MultipleForms:Make">
+        <MSBuild Projects="61-MultipleForms\MultipleForms.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ImageList">
+        <MSBuild Projects="62-ImageList\ImageList.dproj"/>
+    </Target>
+    <Target Name="ImageList:Clean">
+        <MSBuild Projects="62-ImageList\ImageList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ImageList:Make">
+        <MSBuild Projects="62-ImageList\ImageList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PersistantMemTable">
+        <MSBuild Projects="63-PersistantMemTable\PersistantMemTable.dproj"/>
+    </Target>
+    <Target Name="PersistantMemTable:Clean">
+        <MSBuild Projects="63-PersistantMemTable\PersistantMemTable.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PersistantMemTable:Make">
+        <MSBuild Projects="63-PersistantMemTable\PersistantMemTable.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RandomNumbers">
+        <MSBuild Projects="64-RandomNumbers\RandomNumbers.dproj"/>
+    </Target>
+    <Target Name="RandomNumbers:Clean">
+        <MSBuild Projects="64-RandomNumbers\RandomNumbers.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RandomNumbers:Make">
+        <MSBuild Projects="64-RandomNumbers\RandomNumbers.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WebView">
+        <MSBuild Projects="65-WebView\WebView.dproj"/>
+    </Target>
+    <Target Name="WebView:Clean">
+        <MSBuild Projects="65-WebView\WebView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WebView:Make">
+        <MSBuild Projects="65-WebView\WebView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RuntimeCreateControls">
+        <MSBuild Projects="66-RuntimeCreateControls\RuntimeCreateControls.dproj"/>
+    </Target>
+    <Target Name="RuntimeCreateControls:Clean">
+        <MSBuild Projects="66-RuntimeCreateControls\RuntimeCreateControls.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RuntimeCreateControls:Make">
+        <MSBuild Projects="66-RuntimeCreateControls\RuntimeCreateControls.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NotesApp">
+        <MSBuild Projects="67-NotesApp\NotesApp.dproj"/>
+    </Target>
+    <Target Name="NotesApp:Clean">
+        <MSBuild Projects="67-NotesApp\NotesApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NotesApp:Make">
+        <MSBuild Projects="67-NotesApp\NotesApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StreamControls">
+        <MSBuild Projects="68-StreamControls\StreamControls.dproj"/>
+    </Target>
+    <Target Name="StreamControls:Clean">
+        <MSBuild Projects="68-StreamControls\StreamControls.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamControls:Make">
+        <MSBuild Projects="68-StreamControls\StreamControls.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MakeScreenshot">
+        <MSBuild Projects="69-MakeScreenshot\MakeScreenshot.dproj"/>
+    </Target>
+    <Target Name="MakeScreenshot:Clean">
+        <MSBuild Projects="69-MakeScreenshot\MakeScreenshot.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MakeScreenshot:Make">
+        <MSBuild Projects="69-MakeScreenshot\MakeScreenshot.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Ping">
+        <MSBuild Projects="70-Ping\Ping.dproj"/>
+    </Target>
+    <Target Name="Ping:Clean">
+        <MSBuild Projects="70-Ping\Ping.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Ping:Make">
+        <MSBuild Projects="70-Ping\Ping.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HTTPPost">
+        <MSBuild Projects="71-HTTPPost\HTTPPost.dproj"/>
+    </Target>
+    <Target Name="HTTPPost:Clean">
+        <MSBuild Projects="71-HTTPPost\HTTPPost.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HTTPPost:Make">
+        <MSBuild Projects="71-HTTPPost\HTTPPost.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TextFileSaveLoad">
+        <MSBuild Projects="72-TextFileSaveLoad\TextFileSaveLoad.dproj"/>
+    </Target>
+    <Target Name="TextFileSaveLoad:Clean">
+        <MSBuild Projects="72-TextFileSaveLoad\TextFileSaveLoad.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TextFileSaveLoad:Make">
+        <MSBuild Projects="72-TextFileSaveLoad\TextFileSaveLoad.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AsyncHTTPGet">
+        <MSBuild Projects="73-AsyncHTTPGet\AsyncHTTPGet.dproj"/>
+    </Target>
+    <Target Name="AsyncHTTPGet:Clean">
+        <MSBuild Projects="73-AsyncHTTPGet\AsyncHTTPGet.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsyncHTTPGet:Make">
+        <MSBuild Projects="73-AsyncHTTPGet\AsyncHTTPGet.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HTTPServer">
+        <MSBuild Projects="74-HTTPServer\HTTPServer.dproj"/>
+    </Target>
+    <Target Name="HTTPServer:Clean">
+        <MSBuild Projects="74-HTTPServer\HTTPServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HTTPServer:Make">
+        <MSBuild Projects="74-HTTPServer\HTTPServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DNSLookup">
+        <MSBuild Projects="75-DNSLookup\DNSLookup.dproj"/>
+    </Target>
+    <Target Name="DNSLookup:Clean">
+        <MSBuild Projects="75-DNSLookup\DNSLookup.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DNSLookup:Make">
+        <MSBuild Projects="75-DNSLookup\DNSLookup.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ParallelMath">
+        <MSBuild Projects="76-ParallelMath\ParallelMath.dproj"/>
+    </Target>
+    <Target Name="ParallelMath:Clean">
+        <MSBuild Projects="76-ParallelMath\ParallelMath.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ParallelMath:Make">
+        <MSBuild Projects="76-ParallelMath\ParallelMath.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Signature">
+        <MSBuild Projects="77-Signature\Signature.dproj"/>
+    </Target>
+    <Target Name="Signature:Clean">
+        <MSBuild Projects="77-Signature\Signature.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Signature:Make">
+        <MSBuild Projects="77-Signature\Signature.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TimerAnimation">
+        <MSBuild Projects="78-TimerAnimation\TimerAnimation.dproj"/>
+    </Target>
+    <Target Name="TimerAnimation:Clean">
+        <MSBuild Projects="78-TimerAnimation\TimerAnimation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TimerAnimation:Make">
+        <MSBuild Projects="78-TimerAnimation\TimerAnimation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmailApp">
+        <MSBuild Projects="79-EmailApp\EmailApp.dproj"/>
+    </Target>
+    <Target Name="EmailApp:Clean">
+        <MSBuild Projects="79-EmailApp\EmailApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmailApp:Make">
+        <MSBuild Projects="79-EmailApp\EmailApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChangeStyle">
+        <MSBuild Projects="80-ChangeStyle\ChangeStyle.dproj"/>
+    </Target>
+    <Target Name="ChangeStyle:Clean">
+        <MSBuild Projects="80-ChangeStyle\ChangeStyle.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChangeStyle:Make">
+        <MSBuild Projects="80-ChangeStyle\ChangeStyle.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PieChart">
+        <MSBuild Projects="81-PieChart\PieChart.dproj"/>
+    </Target>
+    <Target Name="PieChart:Clean">
+        <MSBuild Projects="81-PieChart\PieChart.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PieChart:Make">
+        <MSBuild Projects="81-PieChart\PieChart.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BcryptPassword">
+        <MSBuild Projects="82-BcryptPassword\BcryptPassword.dproj"/>
+    </Target>
+    <Target Name="BcryptPassword:Clean">
+        <MSBuild Projects="82-BcryptPassword\BcryptPassword.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BcryptPassword:Make">
+        <MSBuild Projects="82-BcryptPassword\BcryptPassword.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DynamicListView">
+        <MSBuild Projects="83-DynamicListView\DynamicListView.dproj"/>
+    </Target>
+    <Target Name="DynamicListView:Clean">
+        <MSBuild Projects="83-DynamicListView\DynamicListView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DynamicListView:Make">
+        <MSBuild Projects="83-DynamicListView\DynamicListView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LocalNotifications">
+        <MSBuild Projects="84-LocalNotifications\LocalNotifications.dproj"/>
+    </Target>
+    <Target Name="LocalNotifications:Clean">
+        <MSBuild Projects="84-LocalNotifications\LocalNotifications.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LocalNotifications:Make">
+        <MSBuild Projects="84-LocalNotifications\LocalNotifications.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EncryptedSQLite">
+        <MSBuild Projects="85-EncryptedSQLite\EncryptedSQLite.dproj"/>
+    </Target>
+    <Target Name="EncryptedSQLite:Clean">
+        <MSBuild Projects="85-EncryptedSQLite\EncryptedSQLite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EncryptedSQLite:Make">
+        <MSBuild Projects="85-EncryptedSQLite\EncryptedSQLite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ContactsSQLite">
+        <MSBuild Projects="86-ContactsSQlite\ContactsSQLite.dproj"/>
+    </Target>
+    <Target Name="ContactsSQLite:Clean">
+        <MSBuild Projects="86-ContactsSQlite\ContactsSQLite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ContactsSQLite:Make">
+        <MSBuild Projects="86-ContactsSQlite\ContactsSQLite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InstagramFeed">
+        <MSBuild Projects="87-InstagramFeed\InstagramFeed.dproj"/>
+    </Target>
+    <Target Name="InstagramFeed:Clean">
+        <MSBuild Projects="87-InstagramFeed\InstagramFeed.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InstagramFeed:Make">
+        <MSBuild Projects="87-InstagramFeed\InstagramFeed.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RESTToSQLite">
+        <MSBuild Projects="88-RESTToSQLite\RESTToSQLite.dproj"/>
+    </Target>
+    <Target Name="RESTToSQLite:Clean">
+        <MSBuild Projects="88-RESTToSQLite\RESTToSQLite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RESTToSQLite:Make">
+        <MSBuild Projects="88-RESTToSQLite\RESTToSQLite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="HTTPImage">
+        <MSBuild Projects="89-HTTPImage\HTTPImage.dproj"/>
+    </Target>
+    <Target Name="HTTPImage:Clean">
+        <MSBuild Projects="89-HTTPImage\HTTPImage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="HTTPImage:Make">
+        <MSBuild Projects="89-HTTPImage\HTTPImage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NativeConnectivity">
+        <MSBuild Projects="90-NativeConnectivity\NativeConnectivity.dproj"/>
+    </Target>
+    <Target Name="NativeConnectivity:Clean">
+        <MSBuild Projects="90-NativeConnectivity\NativeConnectivity.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NativeConnectivity:Make">
+        <MSBuild Projects="90-NativeConnectivity\NativeConnectivity.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SearchSQLite">
+        <MSBuild Projects="91-SearchSQLite\SearchSQLite.dproj"/>
+    </Target>
+    <Target Name="SearchSQLite:Clean">
+        <MSBuild Projects="91-SearchSQLite\SearchSQLite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SearchSQLite:Make">
+        <MSBuild Projects="91-SearchSQLite\SearchSQLite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MusicPlayerApp">
+        <MSBuild Projects="92-MusicPlayerApp\MusicPlayerApp.dproj"/>
+    </Target>
+    <Target Name="MusicPlayerApp:Clean">
+        <MSBuild Projects="92-MusicPlayerApp\MusicPlayerApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MusicPlayerApp:Make">
+        <MSBuild Projects="92-MusicPlayerApp\MusicPlayerApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DynamicSMTP">
+        <MSBuild Projects="93-DynamicSMTP\DynamicSMTP.dproj"/>
+    </Target>
+    <Target Name="DynamicSMTP:Clean">
+        <MSBuild Projects="93-DynamicSMTP\DynamicSMTP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DynamicSMTP:Make">
+        <MSBuild Projects="93-DynamicSMTP\DynamicSMTP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PlaySounds">
+        <MSBuild Projects="94-PlaySounds\PlaySounds.dproj"/>
+    </Target>
+    <Target Name="PlaySounds:Clean">
+        <MSBuild Projects="94-PlaySounds\PlaySounds.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PlaySounds:Make">
+        <MSBuild Projects="94-PlaySounds\PlaySounds.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NewsReaderApp">
+        <MSBuild Projects="95-NewsReaderApp\NewsReaderApp.dproj"/>
+    </Target>
+    <Target Name="NewsReaderApp:Clean">
+        <MSBuild Projects="95-NewsReaderApp\NewsReaderApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NewsReaderApp:Make">
+        <MSBuild Projects="95-NewsReaderApp\NewsReaderApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="InputValidation">
+        <MSBuild Projects="96-InputValidation\InputValidation.dproj"/>
+    </Target>
+    <Target Name="InputValidation:Clean">
+        <MSBuild Projects="96-InputValidation\InputValidation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="InputValidation:Make">
+        <MSBuild Projects="96-InputValidation\InputValidation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragReOrderList">
+        <MSBuild Projects="97-DragReOrderList\DragReOrderList.dproj"/>
+    </Target>
+    <Target Name="DragReOrderList:Clean">
+        <MSBuild Projects="97-DragReOrderList\DragReOrderList.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragReOrderList:Make">
+        <MSBuild Projects="97-DragReOrderList\DragReOrderList.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmojiApp">
+        <MSBuild Projects="98-EmojiApp\EmojiApp.dproj"/>
+    </Target>
+    <Target Name="EmojiApp:Clean">
+        <MSBuild Projects="98-EmojiApp\EmojiApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmojiApp:Make">
+        <MSBuild Projects="98-EmojiApp\EmojiApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DrawApp">
+        <MSBuild Projects="99-DrawApp\DrawApp.dproj"/>
+    </Target>
+    <Target Name="DrawApp:Clean">
+        <MSBuild Projects="99-DrawApp\DrawApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DrawApp:Make">
+        <MSBuild Projects="99-DrawApp\DrawApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="HelloWorld;HelloWorldStyled;StatelessCards;StatefulControl;OnChangeTracking;OnClick;SimpleTabs;FrameTabs;AsyncREST;StringGridWithJsonData;AnimatedGIF;DrawerMenu;PlatformMenu;Animation;JSONStorage;BubbleChatApp;ChangeGlyphColor;ToggleButton;ButtonOnClick;IconButton;UpdateEditField;UpdateCheckBox;UpdateRadioButton;UpdateSwitch;UpdateScrollBar;UpdateDateEdit;ToolBar;FloatingActionButton;PopupMenuButton;FooterButtons;CustomFooterTabs;BottomSheets;SnackBar;ShowMessageDialog;OptionsDialog;RowsAndColumnLayout;Cards;Alignment;ListViewFromJson;ListViewFromStringList;DataImage;Fullscreen;TestConnection;Dial;TodoList;Calendar;Splitter;ProgressBar;ImageViewer;Camera;XML;AppBarState;InventoryMasterDetail;InputDialog;ExportCSV;LoopingAnimation;SimpleBarChart;RunAtStartup;DelayedRunAtStartup;PullToRefresh;ConcatDataFields;MultipleForms;ImageList;PersistantMemTable;RandomNumbers;WebView;RuntimeCreateControls;NotesApp;StreamControls;MakeScreenshot;Ping;HTTPPost;TextFileSaveLoad;AsyncHTTPGet;HTTPServer;DNSLookup;ParallelMath;Signature;TimerAnimation;EmailApp;ChangeStyle;PieChart;BcryptPassword;DynamicListView;LocalNotifications;EncryptedSQLite;ContactsSQLite;InstagramFeed;RESTToSQLite;HTTPImage;NativeConnectivity;SearchSQLite;MusicPlayerApp;DynamicSMTP;PlaySounds;NewsReaderApp;InputValidation;DragReOrderList;EmojiApp;DrawApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="HelloWorld:Clean;HelloWorldStyled:Clean;StatelessCards:Clean;StatefulControl:Clean;OnChangeTracking:Clean;OnClick:Clean;SimpleTabs:Clean;FrameTabs:Clean;AsyncREST:Clean;StringGridWithJsonData:Clean;AnimatedGIF:Clean;DrawerMenu:Clean;PlatformMenu:Clean;Animation:Clean;JSONStorage:Clean;BubbleChatApp:Clean;ChangeGlyphColor:Clean;ToggleButton:Clean;ButtonOnClick:Clean;IconButton:Clean;UpdateEditField:Clean;UpdateCheckBox:Clean;UpdateRadioButton:Clean;UpdateSwitch:Clean;UpdateScrollBar:Clean;UpdateDateEdit:Clean;ToolBar:Clean;FloatingActionButton:Clean;PopupMenuButton:Clean;FooterButtons:Clean;CustomFooterTabs:Clean;BottomSheets:Clean;SnackBar:Clean;ShowMessageDialog:Clean;OptionsDialog:Clean;RowsAndColumnLayout:Clean;Cards:Clean;Alignment:Clean;ListViewFromJson:Clean;ListViewFromStringList:Clean;DataImage:Clean;Fullscreen:Clean;TestConnection:Clean;Dial:Clean;TodoList:Clean;Calendar:Clean;Splitter:Clean;ProgressBar:Clean;ImageViewer:Clean;Camera:Clean;XML:Clean;AppBarState:Clean;InventoryMasterDetail:Clean;InputDialog:Clean;ExportCSV:Clean;LoopingAnimation:Clean;SimpleBarChart:Clean;RunAtStartup:Clean;DelayedRunAtStartup:Clean;PullToRefresh:Clean;ConcatDataFields:Clean;MultipleForms:Clean;ImageList:Clean;PersistantMemTable:Clean;RandomNumbers:Clean;WebView:Clean;RuntimeCreateControls:Clean;NotesApp:Clean;StreamControls:Clean;MakeScreenshot:Clean;Ping:Clean;HTTPPost:Clean;TextFileSaveLoad:Clean;AsyncHTTPGet:Clean;HTTPServer:Clean;DNSLookup:Clean;ParallelMath:Clean;Signature:Clean;TimerAnimation:Clean;EmailApp:Clean;ChangeStyle:Clean;PieChart:Clean;BcryptPassword:Clean;DynamicListView:Clean;LocalNotifications:Clean;EncryptedSQLite:Clean;ContactsSQLite:Clean;InstagramFeed:Clean;RESTToSQLite:Clean;HTTPImage:Clean;NativeConnectivity:Clean;SearchSQLite:Clean;MusicPlayerApp:Clean;DynamicSMTP:Clean;PlaySounds:Clean;NewsReaderApp:Clean;InputValidation:Clean;DragReOrderList:Clean;EmojiApp:Clean;DrawApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="HelloWorld:Make;HelloWorldStyled:Make;StatelessCards:Make;StatefulControl:Make;OnChangeTracking:Make;OnClick:Make;SimpleTabs:Make;FrameTabs:Make;AsyncREST:Make;StringGridWithJsonData:Make;AnimatedGIF:Make;DrawerMenu:Make;PlatformMenu:Make;Animation:Make;JSONStorage:Make;BubbleChatApp:Make;ChangeGlyphColor:Make;ToggleButton:Make;ButtonOnClick:Make;IconButton:Make;UpdateEditField:Make;UpdateCheckBox:Make;UpdateRadioButton:Make;UpdateSwitch:Make;UpdateScrollBar:Make;UpdateDateEdit:Make;ToolBar:Make;FloatingActionButton:Make;PopupMenuButton:Make;FooterButtons:Make;CustomFooterTabs:Make;BottomSheets:Make;SnackBar:Make;ShowMessageDialog:Make;OptionsDialog:Make;RowsAndColumnLayout:Make;Cards:Make;Alignment:Make;ListViewFromJson:Make;ListViewFromStringList:Make;DataImage:Make;Fullscreen:Make;TestConnection:Make;Dial:Make;TodoList:Make;Calendar:Make;Splitter:Make;ProgressBar:Make;ImageViewer:Make;Camera:Make;XML:Make;AppBarState:Make;InventoryMasterDetail:Make;InputDialog:Make;ExportCSV:Make;LoopingAnimation:Make;SimpleBarChart:Make;RunAtStartup:Make;DelayedRunAtStartup:Make;PullToRefresh:Make;ConcatDataFields:Make;MultipleForms:Make;ImageList:Make;PersistantMemTable:Make;RandomNumbers:Make;WebView:Make;RuntimeCreateControls:Make;NotesApp:Make;StreamControls:Make;MakeScreenshot:Make;Ping:Make;HTTPPost:Make;TextFileSaveLoad:Make;AsyncHTTPGet:Make;HTTPServer:Make;DNSLookup:Make;ParallelMath:Make;Signature:Make;TimerAnimation:Make;EmailApp:Make;ChangeStyle:Make;PieChart:Make;BcryptPassword:Make;DynamicListView:Make;LocalNotifications:Make;EncryptedSQLite:Make;ContactsSQLite:Make;InstagramFeed:Make;RESTToSQLite:Make;HTTPImage:Make;NativeConnectivity:Make;SearchSQLite:Make;MusicPlayerApp:Make;DynamicSMTP:Make;PlaySounds:Make;NewsReaderApp:Make;InputValidation:Make;DragReOrderList:Make;EmojiApp:Make;DrawApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

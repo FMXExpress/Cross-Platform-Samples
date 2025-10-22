@@ -9,7 +9,7 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls, FMX.Objects, System.Actions,
   FMX.ActnList, FMX.StdActns, FMX.MediaLibrary.Actions, FMX.Layouts, FMX.Effects,
   FMX.Filter.Effects, FMX.Filter, FMX.Ani, FMX.Graphics,
-  FMX.Controls.Presentation, FMX.ListBox;
+  FMX.Controls.Presentation, FMX.ListBox, FMX.MediaLibrary;
 
 type
   TFilterClass = class of TFilter;
@@ -62,11 +62,23 @@ type
     FPermissionCamera,
     FPermissionReadExternalStorage,
     FPermissionWriteExternalStorage: string;
+{$IF CompilerVersion >= 35.0}
+    procedure DisplayRationale(Sender: TObject; const APermissions: TClassicStringDynArray; const APostRationaleProc: TProc);
+{$ELSE}
     procedure DisplayRationale(Sender: TObject; const APermissions: TArray<string>; const APostRationaleProc: TProc);
+{$ENDIF}
     procedure DoOnChangedEffectParam(Sender: TObject);
     procedure LoadFilterSettings(Rec: TFilterRec);
+{$IF CompilerVersion >= 35.0}
+    procedure LoadPicturePermissionRequestResult(Sender: TObject; const APermissions: TClassicStringDynArray; const AGrantResults: TClassicPermissionStatusDynArray);
+{$ELSE}
     procedure LoadPicturePermissionRequestResult(Sender: TObject; const APermissions: TArray<string>; const AGrantResults: TArray<TPermissionStatus>);
+{$ENDIF}
+{$IF CompilerVersion >= 35.0}
+    procedure TakePicturePermissionRequestResult(Sender: TObject; const APermissions: TClassicStringDynArray; const AGrantResults: TClassicPermissionStatusDynArray);
+{$ELSE}
     procedure TakePicturePermissionRequestResult(Sender: TObject; const APermissions: TArray<string>; const AGrantResults: TArray<TPermissionStatus>);
+{$ENDIF}
   public
     { Public declarations }
     constructor Create(AOwner: TComponent); override;
@@ -112,7 +124,11 @@ begin
 end;
 
 // Optional rationale display routine to display permission requirement rationale to the user
+{$IF CompilerVersion >= 35.0}
+procedure TForm1.DisplayRationale(Sender: TObject; const APermissions: TClassicStringDynArray; const APostRationaleProc: TProc);
+{$ELSE}
 procedure TForm1.DisplayRationale(Sender: TObject; const APermissions: TArray<string>; const APostRationaleProc: TProc);
+{$ENDIF}
 var
   I: Integer;
   RationaleMsg: string;
@@ -295,7 +311,11 @@ begin
   end;
 end;
 
+{$IF CompilerVersion >= 35.0}
+procedure TForm1.LoadPicturePermissionRequestResult(Sender: TObject; const APermissions: TClassicStringDynArray; const AGrantResults: TClassicPermissionStatusDynArray);
+{$ELSE}
 procedure TForm1.LoadPicturePermissionRequestResult(Sender: TObject; const APermissions: TArray<string>; const AGrantResults: TArray<TPermissionStatus>);
+{$ENDIF}
 begin
   // 2 permissions involved: READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
   if (Length(AGrantResults) = 2) and
@@ -306,7 +326,11 @@ begin
     TDialogService.ShowMessage('Cannot do photo editing because the required permissions are not granted');
 end;
 
+{$IF CompilerVersion >= 35.0}
+procedure TForm1.TakePicturePermissionRequestResult(Sender: TObject; const APermissions: TClassicStringDynArray; const AGrantResults: TClassicPermissionStatusDynArray);
+{$ELSE}
 procedure TForm1.TakePicturePermissionRequestResult(Sender: TObject; const APermissions: TArray<string>; const AGrantResults: TArray<TPermissionStatus>);
+{$ENDIF}
 begin
   // 3 permissions involved: CAMERA, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE
   if (Length(AGrantResults) = 3) and

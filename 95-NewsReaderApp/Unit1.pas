@@ -94,9 +94,11 @@ implementation
 {$R *.fmx}
 
 uses
-  Unit2, uCard, FMX.Scene, Soap.XSBuiltIns, IdGlobalProtocols, System.IOUtils,
+  Unit2, uCard, FMX.BufferedLayout, Soap.XSBuiltIns, IdGlobalProtocols, System.IOUtils,
   IdHash, IdHashMessageDigest, System.StrUtils, System.DateUtils;
 
+type
+  TScene = TBufferedLayout;
 
 function TForm1.MD5(const AString: String): String;
 var
